@@ -1,0 +1,17 @@
+[{
+    "currencyCode": "USD",
+    "productDescription": "Monthly Pack",
+    "productCategory": "Subscription",
+    "renewable": false,
+    "serviceType": "SVOD",
+    "period": "Month(s)",
+    "basicService": false,
+    "skuORQuickCode": "monthly_world",
+    "dmaName": "China",
+    "retailPrice": 9.99,
+    "duration": "1",
+    "displayName": "Monthly Pack",
+    "isAdsEnabled": false,
+    "productName": "Monthly Pack"
+}
+]

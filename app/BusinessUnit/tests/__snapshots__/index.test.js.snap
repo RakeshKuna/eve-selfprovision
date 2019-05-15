@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessUnitList <Row> element should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BusinessUnitList />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Row
+          className="mb-4"
+          tag="div"
+        >
+          <Col
+            sm={8}
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <h2>
+              Business Unit List
+            </h2>
+          </Col>
+          <Col
+            className="text-right"
+            sm={4}
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Button
+              color="primary"
+              tag={[Function]}
+              to="/addBU"
+            >
+              Create BU
+            </Button>
+          </Col>
+        </Row>,
+        <Connect(ETable)
+          columns={
+            Array [
+              Object {
+                "Header": "Channel Partner Id",
+                "accessor": "channelPartnerId",
+              },
+              Object {
+                "Header": "Channel Partner Name",
+                "accessor": "channelPartnerName",
+              },
+              Object {
+                "Header": "Channel Partner Type",
+                "accessor": "channelPartnerType",
+              },
+              Object {
+                "Header": "Currency",
+                "accessor": "currency",
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "Actions",
+                "accessor": "[row identifier to be passed to button]",
+                "filterable": false,
+              },
+            ]
+          }
+          data={Array []}
+          loading={true}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              sm={8}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <h2>
+                Business Unit List
+              </h2>
+            </Col>,
+            <Col
+              className="text-right"
+              sm={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                color="primary"
+                tag={[Function]}
+                to="/addBU"
+              >
+                Create BU
+              </Button>
+            </Col>,
+          ],
+          "className": "mb-4",
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <h2>
+                Business Unit List
+              </h2>,
+              "sm": 8,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Business Unit List",
+              },
+              "ref": null,
+              "rendered": "Business Unit List",
+              "type": "h2",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Button
+                color="primary"
+                tag={[Function]}
+                to="/addBU"
+              >
+                Create BU
+              </Button>,
+              "className": "text-right",
+              "sm": 4,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Create BU",
+                "color": "primary",
+                "tag": [Function],
+                "to": "/addBU",
+              },
+              "ref": null,
+              "rendered": "Create BU",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "A",
+        "nodeType": "class",
+        "props": Object {
+          "columns": Array [
+            Object {
+              "Header": "Channel Partner Id",
+              "accessor": "channelPartnerId",
+            },
+            Object {
+              "Header": "Channel Partner Name",
+              "accessor": "channelPartnerName",
+            },
+            Object {
+              "Header": "Channel Partner Type",
+              "accessor": "channelPartnerType",
+            },
+            Object {
+              "Header": "Currency",
+              "accessor": "currency",
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Actions",
+              "accessor": "[row identifier to be passed to button]",
+              "filterable": false,
+            },
+          ],
+          "data": Array [],
+          "loading": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Row
+            className="mb-4"
+            tag="div"
+          >
+            <Col
+              sm={8}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <h2>
+                Business Unit List
+              </h2>
+            </Col>
+            <Col
+              className="text-right"
+              sm={4}
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Button
+                color="primary"
+                tag={[Function]}
+                to="/addBU"
+              >
+                Create BU
+              </Button>
+            </Col>
+          </Row>,
+          <Connect(ETable)
+            columns={
+              Array [
+                Object {
+                  "Header": "Channel Partner Id",
+                  "accessor": "channelPartnerId",
+                },
+                Object {
+                  "Header": "Channel Partner Name",
+                  "accessor": "channelPartnerName",
+                },
+                Object {
+                  "Header": "Channel Partner Type",
+                  "accessor": "channelPartnerType",
+                },
+                Object {
+                  "Header": "Currency",
+                  "accessor": "currency",
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Actions",
+                  "accessor": "[row identifier to be passed to button]",
+                  "filterable": false,
+                },
+              ]
+            }
+            data={Array []}
+            loading={true}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Col
+                sm={8}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <h2>
+                  Business Unit List
+                </h2>
+              </Col>,
+              <Col
+                className="text-right"
+                sm={4}
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Button
+                  color="primary"
+                  tag={[Function]}
+                  to="/addBU"
+                >
+                  Create BU
+                </Button>
+              </Col>,
+            ],
+            "className": "mb-4",
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <h2>
+                  Business Unit List
+                </h2>,
+                "sm": 8,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Business Unit List",
+                },
+                "ref": null,
+                "rendered": "Business Unit List",
+                "type": "h2",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Button
+                  color="primary"
+                  tag={[Function]}
+                  to="/addBU"
+                >
+                  Create BU
+                </Button>,
+                "className": "text-right",
+                "sm": 4,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Create BU",
+                  "color": "primary",
+                  "tag": [Function],
+                  "to": "/addBU",
+                },
+                "ref": null,
+                "rendered": "Create BU",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "A",
+          "nodeType": "class",
+          "props": Object {
+            "columns": Array [
+              Object {
+                "Header": "Channel Partner Id",
+                "accessor": "channelPartnerId",
+              },
+              Object {
+                "Header": "Channel Partner Name",
+                "accessor": "channelPartnerName",
+              },
+              Object {
+                "Header": "Channel Partner Type",
+                "accessor": "channelPartnerType",
+              },
+              Object {
+                "Header": "Currency",
+                "accessor": "currency",
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "Actions",
+                "accessor": "[row identifier to be passed to button]",
+                "filterable": false,
+              },
+            ],
+            "data": Array [],
+            "loading": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

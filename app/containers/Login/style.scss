@@ -1,0 +1,33 @@
+@import '../../styles/global-styles.scss';
+
+.login{
+    margin-top:3rem;
+    @media screen and (max-width: $screen-xxs-max){
+        margin-top: 1.5rem;
+    }
+    .brand_logo{
+        text-align: center;
+        img{
+            @media screen and (max-width: $screen-xxs-max){
+                width: 200px;
+            }
+        }
+    }
+
+    .login_container{
+        background: $whitesmoke;
+        padding: 2rem;
+        margin:2rem 0 5rem 0;
+        @media screen and (max-width: $screen-xxs-max){
+            padding: 1rem;
+            margin: 2rem 0;
+        }
+    }
+
+    h1{
+        font-size: 2.5rem;
+        @media(max-width: $screen-xs-max) {
+            font-size: 2rem;
+        }
+    }
+}

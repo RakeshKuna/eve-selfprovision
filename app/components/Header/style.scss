@@ -1,0 +1,65 @@
+@import '../../styles/global-styles.scss';
+
+.header{
+    background-color: $primary-color;
+    padding: 10px 15px 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    z-index: 1;
+    @include trans-effect;
+    // &.collapes {
+    //     left: 0;
+    //     .logo {
+    //         width: 55px;
+    //         overflow: hidden;
+    //     }
+    // }
+    .logo {
+        float: left;
+        width: 230px;
+        text-align: center;
+        padding: 0 5px;
+        // @include trans-effect;
+        .nav-link {
+            padding: 0;
+        }
+        @media screen and (max-width: $screen-xxs-max){
+            width: 55px;
+            overflow: hidden;
+        }
+    }
+    .nav_menu{
+        float: left;
+        margin-right: 25px;
+        margin-top: 5px;
+        a {
+            color: $white;
+            border: none;
+            outline: none;
+            padding: 8px;
+            font-size: 22px;
+            cursor: pointer;
+            &:not([href]):not([tabindex]){
+                color: $white;
+            }
+            &:hover {
+                color: $brand-secondary;
+            }
+        }
+    }
+    h3 {
+        display: inline-block;
+        color: $white; 
+    }
+    .welcom_data{
+        float: left;
+        p {
+            color: $white;
+            font-size: 1rem;
+            margin-top: 0.6rem;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import 'styles/global-styles.scss';
+@import 'styles/common.scss';
+.datepicker {
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container {
+        display: block;
+    }
+}
+
+.check_main {
+    &.form-check-inline {
+        .form-check-label {
+            margin-right: 10px;
+        }
+    }
+    @media screen and (max-width: $screen-xxs-max) {
+        &.form-check-inline {
+            display: block;
+            .form-check-label {
+                display: block;
+            }
+        }
+    }
+}
+
+h2 {
+    @media screen and (max-width: $screen-xxs-max) {
+        font-size: 1.5rem !important;
+    }
+}

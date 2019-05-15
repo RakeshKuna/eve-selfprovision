@@ -1,0 +1,14 @@
+[
+  {
+      "channelPartnerId": "ATT2",
+      "channelPartnerType": "VDSL",
+      "channelPartnerName": "ATT Bill",
+      "currency": "USD"
+  },
+  {
+      "channelPartnerId": "FOXtestBU2",
+      "channelPartnerType": "WISP",
+      "channelPartnerName": "FOXtestBU2",
+      "currency": "USD"
+  }
+]

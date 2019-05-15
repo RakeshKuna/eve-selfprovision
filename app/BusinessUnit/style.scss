@@ -1,0 +1,61 @@
+@import 'styles/global-styles.scss';
+@import 'styles/common.scss';
+.tabs_main {
+    .nav-tabs {
+        // border: none;
+        .nav-item {
+            .nav-link {
+                // background: $whitesmoke;
+                // border-color: $whitesmoke;
+                border: 1px solid #dee2e6;
+                border-bottom: none;
+                @media screen and (max-width: $screen-xxs-max) {
+                    padding: 6px 7px;
+                    font-size: 13.5px;
+                }
+                &.active {
+                    background: $brand-primary;
+                    border-color: $brand-primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+    .tab-content {
+        background: $whitesmoke;
+        padding: 30px;
+        @media screen and (max-width: $screen-xs-max) {
+            padding: 15px;
+        }
+    }
+}
+
+.offered-alignment {
+    &.form-inline {
+        .form-check-label {
+            padding-right: 25px;
+        }
+        select {
+            width: 200px;
+        }
+        span {
+            padding: 0 10px;
+        }
+        .price {
+            width: 100px;
+        }
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.btn{
+    &.link_btn{
+        color: $brand-primary;
+        &:hover {
+            color: $light_gray;
+        }
+    }
+}

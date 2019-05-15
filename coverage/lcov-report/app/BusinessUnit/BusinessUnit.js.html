@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/BusinessUnit/BusinessUnit.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">app/BusinessUnit</a> BusinessUnit.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/38</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/7</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/38</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ *
+ * App
+ *
+ * This component is the skeleton around the actual pages, and should only
+ * contain code that should be seen on all pages. (e.g. navigation bar)
+ */
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import React from 'react';</span>
+<span class="cstat-no" title="statement not covered" >import { Link } from 'react-router-dom';</span>
+<span class="cstat-no" title="statement not covered" >import { TabContent, TabPane, Nav, NavItem, NavLink, Button } from 'reactstrap';</span>
+<span class="cstat-no" title="statement not covered" >import classnames from 'classnames';</span>
+<span class="cstat-no" title="statement not covered" >import { Products } from 'Products';</span>
+<span class="cstat-no" title="statement not covered" >import { Campaigns } from 'Campaigns';</span>
+<span class="cstat-no" title="statement not covered" >import { withRouter } from 'react-router';</span>
+<span class="cstat-no" title="statement not covered" >import './style.scss';</span>
+<span class="cstat-no" title="statement not covered" >import { AddBusinessUnit } from './AddBusinessUnit';</span>
+&nbsp;
+const FontAwesome = <span class="cstat-no" title="statement not covered" >require('react-fontawesome');</span>
+&nbsp;
+class BusinessUnit extends React.Component {
+<span class="fstat-no" title="function not covered" >  constructor(</span>props) <span class="cstat-no" title="statement not covered" >{</span>
+    super(props);
+<span class="cstat-no" title="statement not covered" >    this.child = React.createRef();</span>
+<span class="cstat-no" title="statement not covered" >    this.campaignChild = React.createRef();</span>
+<span class="cstat-no" title="statement not covered" >    this.setActiveTab = this.setActiveTab.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    if (this.props.location &amp;&amp; this.props.location.pathname.indexOf('editBu') &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >      this.state = {</span>
+        activeTab: 'products',
+        shouldHide: true
+      };
+<span class="cstat-no" title="statement not covered" >      this.channelPartnerId = this.props.match.params.id;</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      this.state = {</span>
+        activeTab: 'addBU',
+        shouldHide: false,
+        tabDisabled: true
+      };
+<span class="cstat-no" title="statement not covered" >      this.channelPartnerId = null;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    this.sku = [];</span>
+  }
+&nbsp;
+  componentDidMount() {
+    // Will be called in the edit flow
+<span class="cstat-no" title="statement not covered" >    if (this.props.match.params.id) {</span>
+<span class="cstat-no" title="statement not covered" >      this.setActiveTab('products');</span>
+    }
+  }
+&nbsp;
+  setSku = <span class="fstat-no" title="function not covered" >(</span>sku) =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.sku = sku;</span>
+  }
+&nbsp;
+  setChannelPartnerId = <span class="fstat-no" title="function not covered" >(</span>id) =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.channelPartnerId = id;</span>
+  }
+&nbsp;
+  setActiveTab =<span class="fstat-no" title="function not covered" >(</span>tab) =&gt; {
+<span class="cstat-no" title="statement not covered" >    if (this.state.activeTab !== tab) {</span>
+<span class="cstat-no" title="statement not covered" >      this.setState({</span>
+        activeTab: tab,
+        tabDisabled: false
+      });
+    }
+<span class="cstat-no" title="statement not covered" >    switch (tab) {</span>
+      case 'products':
+<span class="cstat-no" title="statement not covered" >        this.refs.child.getProducts();</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      case 'campaigns':
+<span class="cstat-no" title="statement not covered" >        this.refs.campaignChild.getCampaigns(this.sku);</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      default:
+    }
+  }
+&nbsp;
+  render() <span class="cstat-no" title="statement not covered" >{</span>
+    const child = <span class="cstat-no" title="statement not covered" >'child';</span>
+    const campaignChild = <span class="cstat-no" title="statement not covered" >'campaignChild';</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className="tabs_main"&gt;
+        &lt;Button className="mb-3 link_btn" tag={Link} to={'/home'} color="link"&gt;&lt;FontAwesome name="angle-left" /&gt; Back&lt;/Button&gt;
+&nbsp;
+        &lt;Nav tabs&gt;
+          &lt;NavItem&gt;
+            &lt;NavLink
+              className={classnames({ active: this.state.activeTab === 'addBU' }, { hidden: this.state.shouldHide === true })}
+              onClick={<span class="fstat-no" title="function not covered" >() =&gt; </span>{ <span class="cstat-no" title="statement not covered" >this.setActiveTab('addBU'); }}</span>
+            &gt;
+              Add Business Unit
+            &lt;/NavLink&gt;
+          &lt;/NavItem&gt;
+          &lt;NavItem&gt;
+            &lt;NavLink
+              className={classnames({ active: this.state.activeTab === 'products' })}
+              onClick={<span class="fstat-no" title="function not covered" >() =&gt; </span>{ <span class="cstat-no" title="statement not covered" >this.setActiveTab('products'); }}</span>
+              disabled={this.state.tabDisabled}
+            &gt;
+              Products
+            &lt;/NavLink&gt;
+          &lt;/NavItem&gt;
+          &lt;NavItem&gt;
+            &lt;NavLink
+              className={classnames({ active: this.state.activeTab === 'campaigns' })}
+              onClick={<span class="fstat-no" title="function not covered" >() =&gt; </span>{ <span class="cstat-no" title="statement not covered" >this.setActiveTab('campaigns'); }}</span>
+              disabled={this.state.tabDisabled}
+            &gt;
+              Campaigns
+            &lt;/NavLink&gt;
+          &lt;/NavItem&gt;
+        &lt;/Nav&gt;
+        &lt;TabContent activeTab={this.state.activeTab}&gt;
+          &lt;TabPane tabId="addBU"&gt;
+            &lt;AddBusinessUnit setActive={this.setActiveTab} setChannelPartnerId={this.setChannelPartnerId} /&gt;
+          &lt;/TabPane&gt;
+          &lt;TabPane tabId="products"&gt;
+            {/* &lt;Button tag={Link} to="/addProduct"&gt;Add Product&lt;/Button&gt; */}
+            &lt;Products channelPartnerId={this.channelPartnerId} ref={child} setSku={this.setSku} /&gt;
+          &lt;/TabPane&gt;
+          &lt;TabPane tabId="campaigns"&gt;
+            &lt;Campaigns channelPartnerId={this.channelPartnerId} ref={campaignChild} /&gt;
+          &lt;/TabPane&gt;
+        &lt;/TabContent&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+export default withRouter(BusinessUnit);
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Feb 11 2019 16:01:47 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

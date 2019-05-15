@@ -1,0 +1,72 @@
+@import '../../styles/global-styles.scss';
+@import '../../styles/common.scss';
+
+.react_table{
+    padding: 20px;
+    @media only screen and (max-width: $screen-xxs-max){
+        padding: 0;
+    }
+    .-pagination {
+        align-items: center;
+        padding: 3px 15px;
+        .-previous, 
+        .-next{
+            max-width: 150px;
+        }
+        .-next{
+            @media only screen and (max-width: $screen-xxs-max){
+                max-width: 100%;
+            }
+        }
+        .-btn{
+            background: rgba($brand-primary, 0.8);
+            color: $white;
+            // max-width: 200px;
+            @include trans-effect;
+            padding: .2rem .75rem;
+            &:not([disabled]):hover{
+                background: rgba($brand-primary, 1);    
+            }
+        }
+    }
+    .rt-table{
+        margin-bottom: 40px;
+        .rt-thead{
+            &.-header{
+                box-shadow: none;
+            }
+            &.-filters{
+                background: rgba($brand-tertiary, 0.1);
+            }
+            .rt-resizable-header-content{
+                font-size: 15px;
+                color: $light_gray;
+                text-align: left;
+            }
+        } 
+        .rt-tbody {
+            .rt-td{
+                font-size: 13px;
+                &:first-child{
+                    padding-left: 10px;
+                }
+                &:last-child{
+                    text-align: right;
+                    padding-right: 10px;
+                }
+            }
+        } 
+        .rt-tr {
+            align-items: center;
+        }
+    }
+     
+    .view_btn{
+        padding: 0.2rem .75rem;
+        font-size: 13px;
+    } 
+    .-center{
+        font-size: 13px;
+    }
+    
+}

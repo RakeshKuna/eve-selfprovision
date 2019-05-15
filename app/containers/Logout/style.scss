@@ -1,0 +1,27 @@
+@import '../../styles/global-styles.scss';
+
+.logout{
+    float: right;
+    .logout_btn{
+        color: $white;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+        @include trans-effect;
+        border: 0;
+        text-decoration: none !important;
+        &:not([href]):not([tabindex]){
+            color: $white;
+        }
+        span {
+            padding-left: 5px;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+            &:not([href]):not([tabindex]){
+                color: $secondary-color;
+            }
+        }
+    }
+}

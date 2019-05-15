@@ -1,0 +1,21 @@
+[{
+        "code": "Select",
+        "name": "Select"
+    },
+    {
+        "code": "AL",
+        "name": "Alabama"
+    },
+    {
+        "code": "LA",
+        "name": "Louisiana"
+    },
+    {
+        "code": "NY",
+        "name": "New York"
+    },
+    {
+        "code": "UT",
+        "name": "Utah"
+    }
+]

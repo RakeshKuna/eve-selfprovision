@@ -1,0 +1,96 @@
+// @font-face {
+//     font-family: 'AvenirNextBold';
+//     src: url('../fonts/AvenirNext-Bold/AvenirNextBold.eot');
+//     src: url('../fonts/AvenirNext-Bold/AvenirNextBold.eot') format('embedded-opentype'),
+//          url('../fonts/AvenirNext-Bold/AvenirNextBold.woff2') format('woff2'),
+//          url('../fonts/AvenirNext-Bold/AvenirNextBold.woff') format('woff'),
+//          url('../fonts/AvenirNext-Bold/AvenirNextBold.ttf') format('truetype'),
+//          url('../fonts/AvenirNext-Bold/AvenirNextBold.svg#AvenirNextBold') format('svg');
+// }
+
+// @font-face {
+//     font-family: 'AvenirNextMedium';
+//     src: url('../fonts/AvenirNext-Medium/AvenirNextMedium.eot');
+//     src: url('../fonts/AvenirNext-Medium/AvenirNextMedium.eot') format('embedded-opentype'),
+//          url('../fonts/AvenirNext-Medium/AvenirNextMedium.woff2') format('woff2'),
+//          url('../fonts/AvenirNext-Medium/AvenirNextMedium.woff') format('woff'),
+//          url('../fonts/AvenirNext-Medium/AvenirNextMedium.ttf') format('truetype'),
+//          url('../fonts/AvenirNext-Medium/AvenirNextMedium.svg#AvenirNextMedium') format('svg');
+// }
+
+// @font-face {
+//     font-family: 'AvenirNextRegular';
+//     src: url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.eot');
+//     src: url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.eot') format('embedded-opentype'),
+//          url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.woff2') format('woff2'),
+//          url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.woff') format('woff'),
+//          url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.ttf') format('truetype'),
+//          url('../fonts/AvenirNext-Regular/AvenirNvhextRegular.svg#AvenirNextRegular') format('svg');
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-weight: $font_thin;
+  font-size: 46px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  @media(max-width: $screen-xs-max) {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-weight: $font_bold;
+  font-size: 32px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  @media(max-width: $screen-xs-max) {
+    font-size: 28px;
+  }
+}
+
+h3 {
+  font-weight: $font_bold;
+  font-size: 22px;
+  line-height: 1.4;
+  @media(max-width: $screen-xs-max) {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-weight: $font_bold;
+  font-size: 18px;
+  line-height: 1.4;
+  @media(max-width: $screen-xs-max) {
+    font-size: 18px;
+  }
+}
+
+h5 {
+  font-weight: $font_normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: $font_normal;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  color: $gray;
+  font-weight: $font_normal;
+}

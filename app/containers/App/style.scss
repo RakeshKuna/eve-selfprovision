@@ -1,0 +1,50 @@
+@import '../../styles/global-styles.scss';
+@import '../../styles/common.scss';
+.main-panel {
+    position: relative;
+    float: right;
+    // width: calc(100% - 230px);
+    width: 100%;
+    min-height: calc(100vh - 35px);
+    height: calc(100% - 35px);
+    padding-top: 60px;
+    @include trans-effect;
+    &.wrap {
+        width: 100%;
+        padding-left: 45px;
+    }
+}
+
+.app-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+//Alert custom code
+.alert {
+    &.alert_custom {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: .25rem 1rem;
+        font-size: 0.85rem;
+        z-index: 999;
+        position: fixed;
+    }
+}
+
+.close {
+    outline: none;
+    &.small {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.2rem;
+        outline: none;
+    }
+}
+
+.error-msg{
+    font-size: 12px;
+    display: inline;
+    color: red;
+}

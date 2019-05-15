@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Dashboard",
+        "icon": "home",
+        "isActive": false,
+        "nested": [],
+        "to": "/home"
+    }
+]

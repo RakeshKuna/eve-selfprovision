@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+//buttons
+.btn{
+    box-shadow: none;
+    outline: none;
+    &:hover,
+    &:focus{
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    &.btn-primary {
+        background: $brand-primary;
+        border-color: $brand-primary;
+        @media screen and (max-width: $screen-xxs-max){
+            font-size: 14px;
+        }
+        &:hover,
+        &:active,
+        &:focus,
+        &:not(:disabled):not(.disabled).active, 
+        &:not(:disabled):not(.disabled):active {
+            background: $brand-primary;
+            border-color: $brand-primary;
+        }
+    }
+
+}
+
+//Heading text colors
+.text-primary-color{
+    color: $primary-color;
+}
+.text-secondary-color {
+    color: $secondary-color;
+}
+
+//Error text color
+.error-block{
+    color: red;
+    font-size: 0.85rem;
+}
+
+.required{
+    position: relative;
+    &::after{
+        content: '*';
+        color: red;
+    }
+}
